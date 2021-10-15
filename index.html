@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="showTask();">
+    <main>
+      <h1>Lista de Tarefas</h1>
+      <div id="container">
+        <p>Digite sua tarefa abaixo:</p>
+        <input
+          type="text"
+          id="field"
+          placeholder="Digite aqui..."
+          maxlength="35"
+        />
+        <div class="buttons">
+          <input
+            type="button"
+            class="button"
+            value="Adicionar tarefa"
+            onclick="addTask();showTask()"
+          />
+          <input
+            type="button"
+            class="button"
+            value="Limpar tudo"
+            onclick="clearTask()"
+          />
+        </div>
+        <div id="result"></div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
