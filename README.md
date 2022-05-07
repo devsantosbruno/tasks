@@ -1,8 +1,35 @@
-<h1 align="center">Tasks</h1>
-<p align="center">
-Projeto para estudo, focando na base de HTML, CSS e Javascript.
-</p> 
 
-![1](https://user-images.githubusercontent.com/79421511/137566294-1cea5ae0-1658-46ab-8ac7-d68074af3a63.JPG)
-![2](https://user-images.githubusercontent.com/79421511/137566295-a9df4119-1f43-497c-b6b5-d7db3117cf49.JPG)
+![Logo](https://cdn.freelogodesign.org/files/53863dd878d541b9b248b563354c2495/thumb/logo_200x200.png?v=637875531560000000)
+# Tarefas
 
+Com o intuito de estudo, a ideia foi criar um projeto onde use o localStorage criando e removendo tarefas de forma dinâmica.
+
+
+## Tecnologias utilizadas
+
+
+•   HTML
+
+•   Css
+
+•   JavaScript
+
+
+## Rodar local
+
+Clone o projeto
+
+```bash
+  git clone git@github.com:devsantosbruno/tasks.git
+```
+
+Vá para o diretório do projeto
+
+```bash
+  cd tasks
+```
+
+
+## Contribuição
+Qualquer contribuição será muito bem-vinda.
+Obrigado!
